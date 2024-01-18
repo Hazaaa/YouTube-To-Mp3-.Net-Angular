@@ -9,5 +9,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'youtube-to-mp3-ui';
+  title = 'YouTube-To-Mp3-Ui';
 }

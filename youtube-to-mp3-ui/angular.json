@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "youtube-to-mp3-ui": {
+    "YouTube-To-Mp3-Ui": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/youtube-to-mp3-ui",
+            "outputPath": "dist/you-tube-to-mp3-ui",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "youtube-to-mp3-ui:build:production"
+              "buildTarget": "YouTube-To-Mp3-Ui:build:production"
             },
             "development": {
-              "buildTarget": "youtube-to-mp3-ui:build:development"
+              "buildTarget": "YouTube-To-Mp3-Ui:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "youtube-to-mp3-ui:build"
+            "buildTarget": "YouTube-To-Mp3-Ui:build"
           }
         },
         "test": {
